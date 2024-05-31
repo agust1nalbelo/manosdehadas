@@ -1,0 +1,30 @@
+.TituloHadas {
+  color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.SeccionesShop {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px));
+}
+.SeccionesShop img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: auto;
+  height: 690px;
+  overflow: hidden;
+}
+.SeccionesShop .AT {
+  display: block;
+  width: 100%;
+}
+
+.body {
+  background-color: #AAECFC;
+}/*# sourceMappingURL=style.css.map */
